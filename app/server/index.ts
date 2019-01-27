@@ -13,7 +13,7 @@ new Pug({
 });
 
 router
-  .get('/', async (ctx) => {
+  .get('*', async (ctx) => {
     ctx.render('index', { name: 'Alex' });
   });
 
